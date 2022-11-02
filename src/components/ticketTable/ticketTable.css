@@ -1,0 +1,38 @@
+.table__header {
+  background-color: rgb(88, 122, 111);
+  height: 5rem;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.table__button {
+  width: 15rem;
+  background-color: #587a6f;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  margin: 2rem 1rem;
+  transition: all 0.2s ease-out;
+}
+
+.table__button:hover {
+  color: #587a6f;
+  background-color: antiquewhite;
+  border: 2px solid #587a6f;
+}
+
+.table__container {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.table__edit-link {
+  color: #587a6f;
+  font-weight: bold;
+}
